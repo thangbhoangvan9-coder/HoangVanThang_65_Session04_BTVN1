@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &so_luong_ly);
  
     // Vòng lặp tính tiền từng ly trong đơn hàng
-    for (int i = 1; i < so_luong_ly; i++) {
+    for (int i = 1; i <= so_luong_ly; i++) {
         long long don_gia_co_ban = 30000; // Giá ly size S mặc định: 30.000 VNĐ
         int size_option = 0; // 1: Size S, 2: Size M (+6000), 3: Size L (+10000)
  
